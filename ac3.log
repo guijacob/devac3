@@ -1,0 +1,23 @@
+2020-10-16T01:32:32.503043+00:00 app[api]: Release v1 created by user guilherme.mello@aluno.faculdadeimpacta.com.br
+2020-10-16T01:32:32.503043+00:00 app[api]: Initial release by user guilherme.mello@aluno.faculdadeimpacta.com.br
+2020-10-16T01:32:32.669871+00:00 app[api]: Release v2 created by user guilherme.mello@aluno.faculdadeimpacta.com.br
+2020-10-16T01:32:32.669871+00:00 app[api]: Enable Logplex by user guilherme.mello@aluno.faculdadeimpacta.com.br
+2020-10-16T01:32:45.000000+00:00 app[api]: Build started by user guilherme.mello@aluno.faculdadeimpacta.com.br
+2020-10-16T01:33:10.704849+00:00 app[api]: Deploy 4b4dc286 by user guilherme.mello@aluno.faculdadeimpacta.com.br
+2020-10-16T01:33:10.704849+00:00 app[api]: Release v3 created by user guilherme.mello@aluno.faculdadeimpacta.com.br
+2020-10-16T01:33:10.722584+00:00 app[api]: Scaled to web@1:Free by user guilherme.mello@aluno.faculdadeimpacta.com.br
+2020-10-16T01:33:14.254539+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-10-16T01:33:16.989464+00:00 app[web.1]: * Serving Flask app "primos" (lazy loading)
+2020-10-16T01:33:16.989501+00:00 app[web.1]: * Environment: production
+2020-10-16T01:33:16.989532+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-16T01:33:16.989586+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-16T01:33:16.989632+00:00 app[web.1]: * Debug mode: off
+2020-10-16T01:33:17.002566+00:00 app[web.1]: * Running on http://0.0.0.0:52927/ (Press CTRL+C to quit)
+2020-10-16T01:33:17.652523+00:00 heroku[web.1]: State changed from starting to up
+2020-10-16T01:33:19.000000+00:00 app[api]: Build succeeded
+2020-10-16T01:35:41.821367+00:00 app[web.1]: 10.95.177.213 - - [16/Oct/2020 01:35:41] "GET / HTTP/1.1" 200 -
+2020-10-16T01:35:41.826000+00:00 heroku[router]: at=info method=GET path="/" host=ac3devmello.herokuapp.com request_id=8516a632-b25d-4bc4-9113-2ca4e2d5820f fwd="168.121.99.184" dyno=web.1 connect=2ms service=19ms status=200 bytes=566 protocol=https
+2020-10-16T01:35:42.183889+00:00 app[web.1]: 10.95.177.213 - - [16/Oct/2020 01:35:42] "GET /favicon.ico HTTP/1.1" 404 -
+2020-10-16T01:35:42.188281+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=ac3devmello.herokuapp.com request_id=1957eb31-6a3c-49bb-ae4c-f5c40dedf130 fwd="168.121.99.184" dyno=web.1 connect=1ms service=13ms status=404 bytes=379 protocol=https
+2020-10-16T01:36:06.402807+00:00 app[web.1]: 10.45.155.176 - - [16/Oct/2020 01:36:06] "GET / HTTP/1.1" 200 -
+2020-10-16T01:36:06.403879+00:00 heroku[router]: at=info method=GET path="/" host=ac3devmello.herokuapp.com request_id=5c689687-43c4-4594-b612-b05b5896c326 fwd="168.121.99.184" dyno=web.1 connect=0ms service=5ms status=200 bytes=566 protocol=https
